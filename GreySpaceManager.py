@@ -158,7 +158,7 @@ if __name__ == "__main__":
     etc_dir = '/var/lib/greyspace/etc'
     info_dir = '/var/lib/greyspace/vhosts/greyspace.info'
     nginx_conf = '/var/lib/greyspace/etc/nginx.conf'
-    vhosts_file = '/path/to/your/sites.txt'
+    vhosts_file = 'sites.txt'
 
     manager = GreySpaceManager(root_dir, vhost_dir, cert_dir, etc_dir, info_dir, nginx_conf, vhosts_file)
     manager.main()
